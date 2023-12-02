@@ -1,7 +1,5 @@
 <?php
 
-//include "interfazCliente.php";
-
 class ListaClientes extends cliente{
 
     public $listaC = array();

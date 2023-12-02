@@ -1,5 +1,5 @@
 <?php
-    abstract class usuario{
+     abstract class Usuario{
        private $nombre;
        private $password;
 
@@ -19,10 +19,10 @@
         public function setPassword ($password){
             $this -> password = $password;
         }
-        public function MostrarUsuario($user){
-            echo $user -> getNombre();
+        public function Mostrar(){
+            echo $this -> nombre;
             echo ", ";
-            echo $user -> getPassword();
+            echo $this -> password;
         }
     }
 
